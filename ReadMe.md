@@ -65,6 +65,7 @@ Types of bugs you might encounter:
 After fixing the existing issues:
 
 1. Analyze the site to identify opportunities for improvement
+   - look at feature-ideas.md for a short list of ideas - but you can implement anything you'd like
 3. Implement the feature
 4. Create a short demonstration of your solution
 
@@ -73,7 +74,7 @@ After fixing the existing issues:
 Your final submission should include:
 
 1. Your GitHub repository link with the fixed and improved code
-2. A 5-minute video demonstration of your solution
+2. A 5-minute video demonstration of your solution ( each team member must have a video about the feature they implemented)
 4. Team information (if applicable)
 
 ## Evaluation Criteria
@@ -109,6 +110,6 @@ Your submission will be evaluated based on:
 
 ## Questions?
 
-If you have any questions about the hackathon, please open an issue in this repository or contact the organizers.
+If you have any questions about the hackathon,  contact the mentor team.
 
 Good luck and happy coding!
