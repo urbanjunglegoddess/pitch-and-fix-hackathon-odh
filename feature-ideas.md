@@ -16,17 +16,17 @@
 - Product Comparison
   - Allow users to select products to compare
   - Create a side-by-side comparison view
+
 # Advanced Features
+
 - Real-time Inventory Updates
   - Show "only X left" with dynamic updates
 - Implement React for reusable components
-- Product Recommendation 
+
+- Product Recommendation
+
   - Create a "You might also like" section
   - Base recommendations on current product attributes
+
 - Interactive Size Guide
 - Basic API/backend ( Express, Prisma )
-
-
-
-
-
