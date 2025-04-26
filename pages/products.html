@@ -16,5 +16,38 @@
     <script src="../js/main.js" async defer></script>
   </head>
 
-  <body></body>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="/images/ShopEase-logo.svg" alt="ShopEase Logo" class="logo" />
+      </div>
+      <nav class="main-nav">
+        <ul id="nav-items">
+          <li class="nav-item"><a href="/" class="active">Home</a></li>
+          <li class="nav-item"><a href="products.html">Products</a></li>
+          <li class="nav-item">
+            <a href="pages/categories.html">Categories</a>
+          </li>
+          <li class="nav-item"><a href="pages/about.html">About Us</a></li>
+          <li class="nav-item"><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="cart-container">
+        <div class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </div>
+        <div class="cart-dropdown" style="display: none">
+          <div class="cart-items">
+            <!-- Cart items will be added here by JavaScript -->
+          </div>
+          <div class="cart-total">
+            <p>Total: $<span id="cart-total-amount">0.00</span></p>
+          </div>
+          <button class="checkout-btn">Checkout</button>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
