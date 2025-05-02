@@ -407,6 +407,10 @@ header {
   cursor: pointer;
 }
 
+.newsletter button:hover{
+  background-color: #005a9e;
+  }
+
 /* Footer */
 footer {
   background-color: #222;
