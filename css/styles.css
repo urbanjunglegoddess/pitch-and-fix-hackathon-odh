@@ -166,7 +166,7 @@ header {
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/hero-bg.jpg");
+    url("https://cdn.pixabay.com/photo/2014/10/22/18/24/central-embassy-498557_1280.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;
