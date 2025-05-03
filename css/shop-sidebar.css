@@ -14,11 +14,16 @@
   border-radius: var(--border-radius);
   padding: 20px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Widget Common Styling */
 .single-sidebar-widget-2 {
   margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+
 }
 
 .single-sidebar-widget-2:last-child {
@@ -42,7 +47,7 @@
 /* Price Range Slider */
 .range__barcustom {
   width: 100%;
-  position: relative;
+  position: absolute ;
 }
 
 .slider {
