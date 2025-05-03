@@ -1,0 +1,37 @@
+/* Coolors Exported Palette - https://coolors.co/9e6240-dea47e-cd4631-f8f2dc-81adc8-22223b-4a4e69 */
+
+- Tailwind
+
+{ 'raw_umber': { DEFAULT: '#9e6240', 100: '#20140d', 200: '#40281a', 300: '#603c27', 400: '#7f5034', 500: '#9e6240', 600: '#bd805d', 700: '#cda085', 800: '#debfae', 900: '#eedfd6' }, 'buff': { DEFAULT: '#dea47e', 100: '#371f0e', 200: '#6e3d1c', 300: '#a55c2b', 400: '#cf7d46', 500: '#dea47e', 600: '#e4b697', 700: '#ebc8b1', 800: '#f2dbcb', 900: '#f8ede5' }, 'jasper': { DEFAULT: '#cd4631', 100: '#290e0a', 200: '#521c14', 300: '#7b2a1e', 400: '#a43828', 500: '#cd4631', 600: '#d76b5b', 700: '#e19084', 800: '#ebb5ad', 900: '#f5dad6' }, 'eggshell': { DEFAULT: '#f8f2dc', 100: '#4e410f', 200: '#9d811f', 300: '#d9b840', 400: '#e9d58f', 500: '#f8f2dc', 600: '#faf5e4', 700: '#fbf7eb', 800: '#fcfaf1', 900: '#fefcf8' }, 'carolina_blue': { DEFAULT: '#81adc8', 100: '#14242e', 200: '#28485c', 300: '#3d6c8a', 400: '#5590b4', 500: '#81adc8', 600: '#9cbed3', 700: '#b5cede', 800: '#cddfe9', 900: '#e6eff4' }, 'space_cadet': { DEFAULT: '#22223b', 100: '#07070c', 200: '#0d0d17', 300: '#141423', 400: '#1b1b2f', 500: '#22223b', 600: '#40406f', 700: '#6060a3', 800: '#9595c2', 900: '#cacae0' }, 'ultra_violet': { DEFAULT: '#4a4e69', 100: '#0f1015', 200: '#1e1f2a', 300: '#2c2f3f', 400: '#3b3e54', 500: '#4a4e69', 600: '#666b8f', 700: '#8b8fac', 800: '#b1b4c8', 900: '#d8dae3' } }
+
+- CSV
+
+9e6240,dea47e,cd4631,f8f2dc,81adc8,22223b,4a4e69
+
+- With #
+
+#9e6240, #dea47e, #cd4631, #f8f2dc, #81adc8, #22223b, #4a4e69
+
+- Array
+
+["9e6240","dea47e","cd4631","f8f2dc","81adc8","22223b","4a4e69"]
+
+- Object
+
+{"Raw umber":"9e6240","Buff":"dea47e","Jasper":"cd4631","Eggshell":"f8f2dc","Carolina blue":"81adc8","Space cadet":"22223b","Ultra Violet":"4a4e69"}
+
+- Extended Array
+
+[{"name":"Raw umber","hex":"9e6240","rgb":[158,98,64],"cmyk":[0,38,59,38],"hsb":[22,59,62],"hsl":[22,42,44],"lab":[47,21,29]},{"name":"Buff","hex":"dea47e","rgb":[222,164,126],"cmyk":[0,26,43,13],"hsb":[24,43,87],"hsl":[24,59,68],"lab":[72,17,28]},{"name":"Jasper","hex":"cd4631","rgb":[205,70,49],"cmyk":[0,66,76,20],"hsb":[8,76,80],"hsl":[8,61,50],"lab":[49,52,41]},{"name":"Eggshell","hex":"f8f2dc","rgb":[248,242,220],"cmyk":[0,2,11,3],"hsb":[47,11,97],"hsl":[47,67,92],"lab":[95,-2,11]},{"name":"Carolina blue","hex":"81adc8","rgb":[129,173,200],"cmyk":[36,13,0,22],"hsb":[203,36,78],"hsl":[203,39,65],"lab":[69,-8,-18]},{"name":"Space cadet","hex":"22223b","rgb":[34,34,59],"cmyk":[42,42,0,77],"hsb":[240,42,23],"hsl":[240,27,18],"lab":[14,7,-16]},{"name":"Ultra Violet","hex":"4a4e69","rgb":[74,78,105],"cmyk":[30,26,0,59],"hsb":[232,30,41],"hsl":[232,17,35],"lab":[34,5,-16]}]
+
+- XML
+
+<palette>
+  <color name="Raw umber" hex="9e6240" r="158" g="98" b="64" />
+  <color name="Buff" hex="dea47e" r="222" g="164" b="126" />
+  <color name="Jasper" hex="cd4631" r="205" g="70" b="49" />
+  <color name="Eggshell" hex="f8f2dc" r="248" g="242" b="220" />
+  <color name="Carolina blue" hex="81adc8" r="129" g="173" b="200" />
+  <color name="Space cadet" hex="22223b" r="34" g="34" b="59" />
+  <color name="Ultra Violet" hex="4a4e69" r="74" g="78" b="105" />
+</palette>
