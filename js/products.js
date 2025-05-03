@@ -1,7 +1,7 @@
 const { features } = require("process")
 
 
-const categories = ["electronics"," home&kitchen", "sports", "clothing"]
+const categories = ["electronics","headphones","wearables","audio"," home&kitchen","furniture","art","appliances","bathroom", "sports","football","basketball","tennis","baseball", "clothing","shirts","pants","shoes","accessories"]
 
 const products =[{
   id: 1, 
