@@ -310,12 +310,19 @@
         <div class="product-grid">
             <!-- Intentional bug: missing product card structure -->
             <div class="product-card">
+                <div class="product-image">
                 <img src="../images/product2.jpg" alt="Smart Watch">
-                <h3>Smart Watch</h3>
-                <p class="price">$199.99</p>
-                <button class="quick-view-btn">Quick View</button>
+                </div>
+                <div class="product-details">
+                <h3 class="product-title">Smart Watch</h3>
+                <div class="product-price">
+                <span class="current-price">$199.99</span>
             </div>
-            
+                <button class="quick-view-btn">Quick View</button>
+                <button class="add-to-cart-btn" data-product-id="2" data-product-name="Smart Watch" data-product-price="199.99">Add to Cart</button>
+
+            </div>
+            </div>
             <div class="product-card">
                 <div class="product-image">
                     <img src="../images/product3.jpg" alt="Bluetooth Speaker">
@@ -325,6 +332,7 @@
                     <div class="product-price">
                         <span class="current-price">$79.99</span>
                     </div>
+                    <button class="quick-view-btn">Quick View</button>
                     <button class="add-to-cart-btn" data-product-id="3" data-product-name="Bluetooth Speaker" data-product-price="79.99">Add to Cart</button>
                 </div>
             </div>
@@ -338,6 +346,7 @@
                     <div class="product-price">
                         <span class="current-price">$49.99</span>
                     </div>
+                    <button class="quick-view-btn">Quick View</button>
                     <button class="add-to-cart-btn" data-product-id="4" data-product-name="Laptop Bag" data-product-price="49.99">Add to Cart</button>
                 </div>
             </div>
