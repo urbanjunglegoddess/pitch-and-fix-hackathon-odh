@@ -7,7 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d228e83c-e412-4d6b-b478-f7dcbeb8f101" name="Changes" comment="CU-868dthw1j - onclick handlers using incorrect function names" />
+    <list default="true" id="d228e83c-e412-4d6b-b478-f7dcbeb8f101" name="Changes" comment="CU-868dthw1j - onclick handlers using incorrect function names">
+      <change afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product-detail.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +64,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.google.cloudcode.ide_session_index": "20250503_0003",
+    "com.google.cloudcode.ide_session_index": "20250504_0000",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "CU-868dp7v70__Create-a-categories-page__Omegea-Hunter",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/homebase/Documents/GitHub/pitch-and-fix-hackathon-odh",
     "node.js.detected.package.stylelint": "true",
@@ -154,6 +162,7 @@
       <workItem from="1746313763140" duration="242000" />
       <workItem from="1746314014409" duration="163000" />
       <workItem from="1746314186215" duration="24182000" />
+      <workItem from="1746368428315" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore, update navigation links, and refactor HTML structure">
       <option name="closed" value="true" />
