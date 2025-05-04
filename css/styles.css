@@ -1,5 +1,5 @@
 /* Global Styles */
-:root{
+:root {
   --raw-umber: #9e6240ff;
   --buff: #dea47eff;
   --jasper: #cd4631ff;
@@ -8,6 +8,7 @@
   --space-cadet: #22223bff;
   --ultra-violet: #4a4e69ff;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -166,7 +167,7 @@ header {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background-color:var(--jasper);
+  background-color: var(--jasper);
   color: white;
   border: none;
   border-radius: 4px;
@@ -211,7 +212,7 @@ header {
 .cta-button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background-color:var(--jasper);
+  background-color: var(--jasper);
   color: var(--eggshell);
   border-radius: 4px;
   font-weight: bold;
@@ -301,7 +302,7 @@ header {
 
 .original-price {
   text-decoration: line-through;
-  color:var(--ultra-violet);
+  color: var(--ultra-violet);
   margin-right: 0.5rem;
 }
 
@@ -425,9 +426,9 @@ header {
   cursor: pointer;
 }
 
-.newsletter button:hover{
+.newsletter button:hover {
   background-color: #005a9e;
-  }
+}
 
 /* Footer */
 footer {
