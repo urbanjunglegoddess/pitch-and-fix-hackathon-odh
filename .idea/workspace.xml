@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d228e83c-e412-4d6b-b478-f7dcbeb8f101" name="Changes" comment="CU-868dthw1j - onclick handlers using incorrect function names" />
+    <list default="true" id="d228e83c-e412-4d6b-b478-f7dcbeb8f101" name="Changes" comment="Update .gitignore to exclude workspace.xml and modify workspace.xml for improved task management" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +56,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.google.cloudcode.ide_session_index": "20250503_0003",
+    "com.google.cloudcode.ide_session_index": "20250504_0000",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "CU-868dp7v70__Create-a-categories-page__Omegea-Hunter",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/homebase/Documents/GitHub/pitch-and-fix-hackathon-odh",
     "node.js.detected.package.stylelint": "true",
@@ -154,6 +153,7 @@
       <workItem from="1746313763140" duration="242000" />
       <workItem from="1746314014409" duration="163000" />
       <workItem from="1746314186215" duration="24182000" />
+      <workItem from="1746368428315" duration="8423000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore, update navigation links, and refactor HTML structure">
       <option name="closed" value="true" />
@@ -187,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746323716863</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CU-868dp2056 - Create a about page; CU-868dtw57y - Create contact page;">
+      <option name="closed" value="true" />
+      <created>1746370420440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746370420440</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update .gitignore to exclude workspace.xml and modify workspace.xml for improved task management">
+      <option name="closed" value="true" />
+      <created>1746373995958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746373995958</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +231,9 @@
     <MESSAGE value="Refactor HTML structure for improved readability and accessibility; remove unused component from misc.xml" />
     <MESSAGE value="Add Font Awesome library and update product detail styles;CU-868dtuwwa - Fix the footer links" />
     <MESSAGE value="CU-868dthw1j - onclick handlers using incorrect function names" />
-    <option name="LAST_COMMIT_MESSAGE" value="CU-868dthw1j - onclick handlers using incorrect function names" />
+    <MESSAGE value="CU-868dp2056 - Create a about page; CU-868dtw57y - Create contact page;" />
+    <MESSAGE value="Update .gitignore to exclude workspace.xml and modify workspace.xml for improved task management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore to exclude workspace.xml and modify workspace.xml for improved task management" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
