@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d228e83c-e412-4d6b-b478-f7dcbeb8f101" name="Changes" comment="CU-868dthw1j - onclick handlers using incorrect function names">
-      <change beforePath="$PROJECT_DIR$/pages/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product-detail.html" afterDir="false" />
-    </list>
+    <list default="true" id="d228e83c-e412-4d6b-b478-f7dcbeb8f101" name="Changes" comment="CU-868dthw1j - onclick handlers using incorrect function names" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +26,13 @@
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="300" />
+    </hideBySeverity>
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="sortByName" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -50,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.google.cloudcode.ide_session_index": "20250503_0003",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "CU-868dp7v70__Create-a-categories-page__Omegea-Hunter",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/homebase/Documents/GitHub/pitch-and-fix-hackathon-odh",
     "node.js.detected.package.stylelint": "true",
@@ -63,6 +71,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.15359208",
     "rearrange.code.on.save": "true",
+    "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
@@ -144,7 +153,7 @@
       <workItem from="1746312353081" duration="1399000" />
       <workItem from="1746313763140" duration="242000" />
       <workItem from="1746314014409" duration="163000" />
-      <workItem from="1746314186215" duration="20647000" />
+      <workItem from="1746314186215" duration="24182000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore, update navigation links, and refactor HTML structure">
       <option name="closed" value="true" />
