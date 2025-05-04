@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Setup quantity controls
   function setupQuantityControls() {
-    const decreaseBtn = document.getElementById("decrease-qty");
-    const increaseBtn = document.getElementById("increase-qty");
+    const decreaseBtn = document.getElementById("decrease-quantity");
+    const increaseBtn = document.getElementById("increase-quantity");
     const quantityInput = document.getElementById("quantity");
 
     if (decreaseBtn && quantityInput) {

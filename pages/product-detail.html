@@ -145,13 +145,13 @@
             <h3>Quantity:</h3>
             <div class="quantity-controls">
                 <!-- Intentional bug: decrease button has incorrect id -->
-                <button class="quantity-btn" id="decrease-qty">-</button>
+                <button class="quantity-btn" id="decrease-quantity">-</button>
                 <label for="quantity"></label><input id="quantity"
                                                      max="10"
                                                      min="1"
                                                      type="text"
                                                      value="1"/>
-                <button class="quantity-btn" id="increase-qty">+</button>
+                <button class="quantity-btn" id="increase-quantity">+</button>
             </div>
         </div>
         <div class="purchase-actions">
@@ -242,7 +242,6 @@
                         <th>Weight</th>
                         <td>250g</td>
                     </tr>
-                    <!-- Intentional bug: missing closing table tag -->
                 </table>
             </div>
             <div class="tab-content" id="reviews">
@@ -609,9 +608,8 @@
     </div>
 </footer>
 
-<!-- Intentional bug: loading scripts in incorrect order -->
 <script src="../js/main.js"></script>
-<script src="../js/cart.js"></script>
 <script src="../js/product-detail.js"></script>
+<script src="../js/cart.js"></script>
 </body>
 </html>
