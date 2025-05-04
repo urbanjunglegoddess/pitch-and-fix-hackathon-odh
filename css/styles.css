@@ -14,11 +14,16 @@
   box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: var(--space-cadet);
 }
+
 
 /* Typography */
 h1,
@@ -95,7 +100,7 @@ header {
 
 .nav-item a {
   padding: 0.5rem;
-  color: var(--space-cadet);
+  color: var(--raw-umber);
   font-weight: 500;
 }
 
@@ -220,6 +225,7 @@ header {
 .featured-products,
 .categories {
   padding: 4rem 2rem;
+
 }
 
 .featured-products h2,

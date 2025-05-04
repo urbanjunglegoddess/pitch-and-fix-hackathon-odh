@@ -2,23 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="" name="description"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <title>Product Detail - ShopEase</title>
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/responsive.css" />
+    <link href="../css/styles.css" rel="stylesheet"/>
+    <link href="../css/responsive.css" rel="stylesheet"/>
     <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
     />
   </head>
   <body>
     <header>
       <div class="logo-container">
         <img
-          src="../images/ShopEase-logo.svg"
           alt="ShopEase Logo"
           class="logo"
+          src="../images/ShopEase-logo.svg"
         />
       </div>
       <nav class="main-nav">
@@ -47,41 +47,41 @@
       </div>
     </header>
 
-    <main class="product-detail-container">
+    <main class="container">
       <div class="product-images">
         <div class="main-image">
           <!-- Intentional bug: image will be loaded through JavaScript but with incorrect selector -->
           <img
+                  alt="Wireless Headphones"
             id="main-product-img"
             src="../images/product1.jpg"
-            alt="Wireless Headphones"
           />
         </div>
         <div class="thumbnail-gallery">
           <!-- Intentional bug: onclick handlers using incorrect function names -->
           <img
-            src="../images/product1.jpg"
             alt="Wireless Headphones - Front"
             class="thumbnail active"
             onclick="changeMainImage(this)"
+            src="../images/product1.jpg"
           />
           <img
-            src="../images/product1-side.jpg"
             alt="Wireless Headphones - Side"
             class="thumbnail"
             onclick="changeMainImage(this)"
+            src="../images/product1-side.jpg"
           />
           <img
-            src="../images/product1-back.jpg"
             alt="Wireless Headphones - Back"
             class="thumbnail"
             onclick="changeMainImg(this)"
+            src="../images/product1-back.jpg"
           />
           <img
-            src="../images/product1-case.jpg"
             alt="Wireless Headphones - Case"
             class="thumbnail"
             onclick="switchImage(this)"
+            src="../images/product1-case.jpg"
           />
         </div>
       </div>
@@ -143,23 +143,23 @@
           <h3>Quantity:</h3>
           <div class="quantity-controls">
             <!-- Intentional bug: decrease button has incorrect id -->
-            <button id="decrease-qty" class="quantity-btn">-</button>
-            <input type="text" id="quantity" value="1" min="1" max="10" />
-            <button id="increase-quantity" class="quantity-btn">+</button>
+            <button class="quantity-btn" id="decrease-qty">-</button>
+            <input id="quantity" max="10" min="1" type="text" value="1"/>
+            <button class="quantity-btn" id="increase-quantity">+</button>
           </div>
         </div>
         <div class="purchase-actions">
           <button
-            id="add-to-cart"
             class="add-to-cart-btn"
             data-product-id="1"
             data-product-name="Wireless Headphones"
             data-product-price="99.99"
+            id="add-to-cart"
           >
             Add to Cart
           </button>
-          <button id="buy-now" class="buy-now-btn">Buy Now</button>
-          <button id="add-to-wishlist" class="wishlist-btn">
+          <button class="buy-now-btn" id="buy-now">Buy Now</button>
+          <button class="wishlist-btn" id="add-to-wishlist">
             <i class="far fa-heart"></i>
             <span>Add to Wishlist</span>
           </button>
@@ -173,7 +173,6 @@
           </p>
         </div>
       </div>
-    </main>
 
     <section class="product-tabs">
       <div class="tabs-header">
@@ -187,7 +186,7 @@
         <button class="tab-btn" data-tab="shipping">Shipping & Returns</button>
       </div>
       <div class="tabs-content">
-        <div id="description" class="tab-content active">
+        <div class="tab-content active" id="description">
           <h2>Product Description</h2>
           <p>
             Our Wireless Headphones deliver an exceptional audio experience with
@@ -206,7 +205,7 @@
             a detachable cable for wired listening when needed.
           </p>
         </div>
-        <div id="specifications" class="tab-content">
+        <div class="tab-content" id="specifications">
           <h2>Technical Specifications</h2>
           <table class="specs-table">
             <tr>
@@ -240,7 +239,7 @@
             <!-- Intentional bug: missing closing table tag -->
           </table>
         </div>
-        <div id="reviews" class="tab-content">
+        <div class="tab-content" id="reviews">
           <h2>Customer Reviews</h2>
           <div class="review-summary">
             <div class="average-rating">
@@ -359,7 +358,7 @@
               </div>
             </div>
           </div>
-          <div id="shipping" class="tab-content">
+          <div class="tab-content" id="shipping">
             <h2>Shipping & Returns</h2>
             <div class="shipping-info">
               <h3>Shipping Information</h3>
@@ -421,7 +420,7 @@
       <div class="product-grid">
         <div class="product-card">
           <div class="product-image">
-            <img src="../images/product2.jpg" alt="Smart Watch" />
+            <img alt="Smart Watch" src="../images/product2.jpg"/>
           </div>
           <div class="product-details">
             <h3 class="product-title">Smart Watch</h3>
@@ -442,7 +441,7 @@
 
         <div class="product-card">
           <div class="product-image">
-            <img src="../images/product3.jpg" alt="Bluetooth Speaker" />
+            <img alt="Bluetooth Speaker" src="../images/product3.jpg"/>
           </div>
           <div class="product-details">
             <h3 class="product-title">Bluetooth Speaker</h3>
@@ -463,7 +462,7 @@
 
         <div class="product-card">
           <div class="product-image">
-            <img src="../images/product4.jpg" alt="Laptop Bag" />
+            <img alt="Laptop Bag" src="../images/product4.jpg"/>
           </div>
           <div class="product-details">
             <h3 class="product-title">Laptop Bag</h3>
@@ -489,7 +488,7 @@
       <div class="product-grid">
         <div class="product-card">
           <div class="product-image">
-            <img src="../images/product2.jpg" alt="Smart Watch" />
+            <img alt="Smart Watch" src="../images/product2.jpg"/>
           </div>
           <div class="product-details">
             <h3 class="product-title">Smart Watch</h3>
@@ -510,7 +509,7 @@
 
         <div class="product-card">
           <div class="product-image">
-            <img src="../images/product3.jpg" alt="Bluetooth Speaker" />
+            <img alt="Bluetooth Speaker" src="../images/product3.jpg"/>
           </div>
           <div class="product-details">
             <h3 class="product-title">Bluetooth Speaker</h3>
@@ -531,7 +530,7 @@
 
         <div class="product-card">
           <div class="product-image">
-            <img src="../images/product4.jpg" alt="Laptop Bag" />
+            <img alt="Laptop Bag" src="../images/product4.jpg"/>
           </div>
           <div class="product-details">
             <h3 class="product-title">Laptop Bag</h3>
@@ -551,7 +550,7 @@
         </div>
       </div>
     </section>
-
+    </main>
     <footer>
       <div class="footer-columns">
         <div class="footer-column">

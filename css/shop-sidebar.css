@@ -1,24 +1,23 @@
-/* Base Styling with CSS Variables */
-:root {
-  --border-color: #e9e9e9;
-  --primary-color: #f33535;
-  --hover-color: #005a9e;
-  --star-color: #f5b400;
-  --border-radius: 8px;
-  --small-radius: 4px;
-}
-
+/* Base Styling with CSS Variables *
 /* Sidebar Structure */
 .main-sideber {
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
+  border: 1px solid var(--eggshell);
+  border-radius: 8px;
   padding: 20px;
   background-color: #fff;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
 }
 
 /* Widget Common Styling */
+.single-sidebar-widget-1 {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+
+}
 .single-sidebar-widget-2 {
   margin-bottom: 30px;
   padding: 20px;
