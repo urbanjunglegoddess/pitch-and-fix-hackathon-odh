@@ -106,9 +106,9 @@ header {
   font-weight: 500;
 }
 
-.nav-item a.active,
+.nav-item a:active,
 .nav-item a:hover {
-  color: var(--ultra-violet);
+  color: var(--carolina-blue);
 }
 
 /* Cart */
