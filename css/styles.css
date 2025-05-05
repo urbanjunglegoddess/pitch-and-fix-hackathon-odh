@@ -238,13 +238,15 @@ header {
 }
 
 .product-grid,
-.category-grid {
+.category-grid,
+.blog-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
-.product-card {
+.product-card,
+.blog-card {
   border: 1px solid var(--eggshell);
   border-radius: 8px;
   overflow: hidden;
@@ -252,12 +254,14 @@ header {
   box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
 }
 
-.product-card:hover {
+.product-card:hover,
+.blog-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.product-image {
+.product-image,
+.blog-image {
   position: relative;
   height: 200px;
   overflow: hidden;
@@ -285,7 +289,8 @@ header {
   border-radius: 4px;
 }
 
-.product-details {
+.product-details,
+.blog-details {
   padding: 1rem;
 }
 
